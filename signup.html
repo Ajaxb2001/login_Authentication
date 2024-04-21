@@ -1,0 +1,47 @@
+<!-- signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./images/avatar_pic.png" alt="Your Logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+    <div class="signup-container">
+      <h2>Sign Up</h2>
+      <form action="/signup" method="POST">
+        <input type="text" name="username" placeholder="Username" required />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <button type="submit">Sign Up</button>
+      </form>
+      <p>Already have an account? <a href="index.html">Login</a></p>
+    </div>
+    <footer class="footer">
+      <div class="social-links">
+        <a href="https://www.instagram.com"
+          ><img src="./images/icons8-instagram-96.png" alt="Instagram"
+        /></a>
+        <a href="https://www.linkedin.com"
+          ><img src="./images/icons8-youtube-48.png" alt="LinkedIn"
+        /></a>
+        <!-- Add more social media links as needed -->
+      </div>
+      <p>&copy; 2024 Ajay Bashetti</p>
+    </footer>
+  </body>
+</html>
