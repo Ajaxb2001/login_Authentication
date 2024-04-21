@@ -83,12 +83,8 @@ a:hover {
 /* Navbar Styles */
 /* style.css */
 
+/* Navbar Styles */
 .navbar {
-  position: fixed; /* Fixed position */
-  top: 0;
-  left: 0;
-  width: 100%; /* Full width */
-  z-index: 1000; /* Ensure the navbar is above other content */
   background-color: rgba(51, 51, 51, 0.5); /* Transparent black color */
   color: #fff; /* Navbar text color */
   padding: 10px;
@@ -97,15 +93,23 @@ a:hover {
   align-items: center;
 }
 
+/* Navbar hover effect */
+.navbar:hover {
+  background-color: rgba(51, 51, 51, 0.8); /* Darker transparent black color on hover */
+}
+
+/* Logo Styles */
 .navbar .logo {
   font-size: 1.5rem;
 }
 
+/* Logo Image Styles */
 .navbar .logo img {
   height: 100px; /* Adjust height as needed */
   width: auto; /* Maintain aspect ratio */
 }
 
+/* Navigation Links Styles */
 .nav-links {
   list-style: none;
   display: flex;
@@ -114,6 +118,12 @@ a:hover {
 .nav-links li {
   margin-right: 20px;
 }
+
+/* Navigation Links hover effect */
+.nav-links a:hover {
+  color: #ffd700; /* Change text color to gold on hover */
+}
+
 
 /* Footer Styles */
 .footer {
