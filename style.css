@@ -81,7 +81,14 @@ a:hover {
   color: #fff;
 }
 /* Navbar Styles */
+/* style.css */
+
 .navbar {
+  position: fixed; /* Fixed position */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure the navbar is above other content */
   background-color: rgba(51, 51, 51, 0.5); /* Transparent black color */
   color: #fff; /* Navbar text color */
   padding: 10px;
@@ -92,8 +99,8 @@ a:hover {
 
 .navbar .logo {
   font-size: 1.5rem;
-
 }
+
 .navbar .logo img {
   height: 100px; /* Adjust height as needed */
   width: auto; /* Maintain aspect ratio */
@@ -107,6 +114,7 @@ a:hover {
 .nav-links li {
   margin-right: 20px;
 }
+
 /* Footer Styles */
 .footer {
   background-color: #333; /* Footer background color */
